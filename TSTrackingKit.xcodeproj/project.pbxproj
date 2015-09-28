@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E9D4E3611BB95F63007FB166 /* TSTrackingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D4E3601BB95F63007FB166 /* TSTrackingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D4E36C1BB95F70007FB166 /* TSEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D4E3681BB95F70007FB166 /* TSEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D4E36D1BB95F70007FB166 /* TSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D4E3691BB95F70007FB166 /* TSEvent.m */; settings = {ASSET_TAGS = (); }; };
+		E9D4E36E1BB95F70007FB166 /* TSTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D4E36A1BB95F70007FB166 /* TSTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D4E36F1BB95F70007FB166 /* TSTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D4E36B1BB95F70007FB166 /* TSTracking.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9D4E35D1BB95F63007FB166 /* TSTrackingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSTrackingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D4E3601BB95F63007FB166 /* TSTrackingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTrackingKit.h; sourceTree = "<group>"; };
 		E9D4E3621BB95F63007FB166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D4E3681BB95F70007FB166 /* TSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSEvent.h; sourceTree = "<group>"; };
+		E9D4E3691BB95F70007FB166 /* TSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSEvent.m; sourceTree = "<group>"; };
+		E9D4E36A1BB95F70007FB166 /* TSTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTracking.h; sourceTree = "<group>"; };
+		E9D4E36B1BB95F70007FB166 /* TSTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTracking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				E9D4E3601BB95F63007FB166 /* TSTrackingKit.h */,
+				E9D4E36A1BB95F70007FB166 /* TSTracking.h */,
+				E9D4E36B1BB95F70007FB166 /* TSTracking.m */,
+				E9D4E3681BB95F70007FB166 /* TSEvent.h */,
+				E9D4E3691BB95F70007FB166 /* TSEvent.m */,
 				E9D4E3621BB95F63007FB166 /* Info.plist */,
 			);
 			path = TSTrackingKit;
@@ -60,6 +72,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D4E3611BB95F63007FB166 /* TSTrackingKit.h in Headers */,
+				E9D4E36C1BB95F70007FB166 /* TSEvent.h in Headers */,
+				E9D4E36E1BB95F70007FB166 /* TSTracking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D4E36F1BB95F70007FB166 /* TSTracking.m in Sources */,
+				E9D4E36D1BB95F70007FB166 /* TSEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +249,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TSTrackingKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.thomassillmann.TSTrackingKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -249,6 +266,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TSTrackingKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.thomassillmann.TSTrackingKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";

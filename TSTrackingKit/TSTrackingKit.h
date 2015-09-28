@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double TSTrackingKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TSTrackingKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TSTrackingKit/PublicHeader.h>
-
-
+#import <TSTrackingKit/TSTracking.h>
+#import <TSTrackingKit/TSEvent.h>
