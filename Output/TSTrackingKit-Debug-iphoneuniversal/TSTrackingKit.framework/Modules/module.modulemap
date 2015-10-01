@@ -1,0 +1,6 @@
+framework module TSTrackingKit {
+  umbrella header "TSTrackingKit.h"
+
+  export *
+  module * { export * }
+}

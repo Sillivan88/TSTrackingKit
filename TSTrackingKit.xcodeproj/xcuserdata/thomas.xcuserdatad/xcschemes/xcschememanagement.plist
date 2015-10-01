@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TSTrackingKit-Universal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TSTrackingKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E95A64A91BBD2E1700F2E75C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E9D4E35C1BB95F63007FB166</key>
 		<dict>
 			<key>primary</key>
